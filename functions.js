@@ -14,4 +14,5 @@ function biyog (x, y){
 
 }
 biyog(12334, 6555)
-biyog(50, 40)
+biyog(50, 40);
+
