@@ -42,15 +42,28 @@
 // numbers(20);
 // numbers(49);
 
-function add (a, b) {
-    const sum = a + b;
-    console.log(sum)
-}
-add(100, 20)
+// function add (a, b) {
+//     const sum = a + b;
+//     console.log(sum)
+// }
+// add(100, 20)
 
-function addAll (a, b, c, d, e){
-    const total = a * b + c * d +e;
-    console.log(total);
+// function addAll (a, b, c, d, e){
+//     const total = a * b + c * d +e;
+//     console.log(total);
+// }
+// addAll(12, 22, 55, 75, 43);
+// addAll(1, 3, 5, 7, 2)
+
+// function dubleIt (number){
+//           const double = Number * 2;
+//           console.log(number, double)
+// }
+// dubleIt(20)
+
+function square (number){
+    const result = number * number;
+    return result;
 }
-addAll(12, 22, 55, 75, 43);
-addAll(1, 3, 5, 7, 2)
+const outpus = square(100);
+console.log(outpus)
